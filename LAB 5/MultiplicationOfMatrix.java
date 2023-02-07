@@ -33,9 +33,22 @@ public class MultiplicationOfMatrix {
                 merrix2[i][j] = sc.nextInt();
             }
         }
-
+        
+        int sum[][] = new int[m1x][m2y];
         for (int i = 0; i < m1x; i++) {
-            
+            for (int j = 0; j < m2y; j++) {
+                sum[i][j] = 0;
+                for (int k = 0; k < m1y; k++) {
+                    sum[i][j] += (merrix1[i][k] * merrix2[k][j]);
+                }
+            }
+        }
+        System.out.println("Multiplication of metrices is :");
+        for (int i = 0; i < sum.length; i++) {
+            for (int j = 0; j < sum[i].length; j++) {
+                System.out.print(sum[i][j] + "\t");
+            }
+            System.out.println();
         }
     }
 }
