@@ -1,0 +1,18 @@
+[+] WAP to print “Welcome to Java”.
+File:Welcome.java
+
+[+] WAP to print your address i) using single print ii) using multiple println.
+I)  File:Address1.java
+II) File:Address2.java
+
+[+] WAP to print addition of 2 number using command line
+File:DoAddition.java
+
+[+] WAP to calculate Area of Circle.
+File:AreaOfCircle.java
+
+[+] WAP to convert temperature from Fahrenheit to Celsius.
+File:Temperature.java
+
+[+] WAP that reads a number in meters, converts it to feet, and displays the result.
+File:MetersToFeet.java

@@ -1,0 +1,24 @@
+[+] WAP to make a Simple Calculator using switch...case
+File:calc.java
+
+[+] Three sides of a triangle are entered through the keyboard. WAP to check whether the triangle is isosceles, equilateral, scalene or right-angled triangle.
+File:triangle.java
+
+[+] WAP that prompts the user to input number of calls and calculate the monthly telephone bills as per the following rule
+Minimum Rs. 200 for up to 100 calls.
+Plus Rs. 0.60 per call for next 50 calls.
+Plus Rs. 0.50 per call for next 50 calls.
+Plus Rs. 0.40 per call for any call beyond 200 calls.
+File:phone_call.java
+
+[+] WAP to print numbers between two given numbers which is divisible by 2 but not divisible by 3.
+File:Divisible.java
+
+[+] WAP to find factorial of the given number
+File:Factorial.java
+
+[+] WAP to find whether the given number is prime or not without using function.
+File:PrimeNumber.java
+
+[+] WAP to print given number in reverse order.
+File:ReverseOrder.java

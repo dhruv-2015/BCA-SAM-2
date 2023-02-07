@@ -1,0 +1,17 @@
+[+] Body Mass Index (BMI) is a measure of health on weight. It can be calculated by taking your weight in kilograms and dividing by the square of your height in meters. Write a program that prompts the user to enter a weight in pounds and height in inches and displays the BMI. Note: - 1 pound=.45359237 Kg and 1 inch=.0254 meters
+File:BNI.java
+
+[+] WAP to find a diameter from given area of circle.
+File:DIA.java
+
+[+] WAP to check whether the given number is positive or negative.
+File:pos_neg.java
+
+[+] WAP that prompts the user to enter a letter and check whether a letter is a vowel or consonants
+File:Vocal.java
+
+[+] WAP to find out largest number from given three numbers without using Logical Operator.
+File:largest_number.java
+
+[+] WAP to read marks of five subjects. Calculate percentage and print class accordingly. Fail below 35, Pass Class between 35 to 45, Second Class between 45 to 60, First Class between 60 to 70, Distinction if more than 70.
+File:percentage.java
