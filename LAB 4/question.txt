@@ -4,5 +4,5 @@ File:EvenOrOdd.java
 [+] WAP to accept n numbers in an array. Display the sum of all the numbers which are divisible by either 3 or 5.
 File:Divisible.java
 
-[-] WAP to accept n numbers in an array. Now, enter a number and search whether the number is present or not in the list of array elements by using linear search.
+[+] WAP to accept n numbers in an array. Now, enter a number and search whether the number is present or not in the list of array elements by using linear search.
 File:PresentOrNot.java

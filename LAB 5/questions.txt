@@ -1,0 +1,5 @@
+[+] WAP to read values in two-dimensional array and print them in matrix form.
+File:ReadAndPrintMatrix.java
+[-] WAP to read two matrices of size n X n, perform multiplication operation and store result in third matrix and print it.
+File:MultiplicationOfMatrix.java
+[-] WAP to store numbers in 4 X 4 matrix in a two-dimensional array. Find the sum of the numbers of each row and the sum of numbers of each column of the matrix.
