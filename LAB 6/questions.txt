@@ -1,0 +1,17 @@
+[+] WAP to calculate simple interest using method.
+File:SimpleInterest.java
+
+[+] WAP to find maximum number from given two numbers using method.
+File:MaximumNumber.java
+
+[-] WAP to generate Fibonacci series of N given number using method.
+File: 
+
+[+] WAP to accept a number and check whether the number is prime or not. Use method name check (int n). The method returns 1, if the number is prime otherwise, it returns 0.
+File:PrimeNumber.java
+
+[-] WAP that calculates area of circle, triangle and square using method overloading.
+File:
+
+[-] Write a method with following method header: public int gcd (int num1, int num2). Write a program that prompts the user to enter two integers and compute the gcd of two integers. [Note: The greatest common divisor (GCD) of two numbers is the largest number that divides them both.]
+File: 

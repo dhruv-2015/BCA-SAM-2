@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pelendrow {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
@@ -13,9 +13,9 @@ public class pelendrow {
             temp /= 10;
         }
         if (number == revnum) {
-            System.out.println(number + " is ");
+            System.out.println(number + " is Palindrome Number");
         } else {
-            System.out.println(number + " is not ");
+            System.out.println(number + " is not Palindrome Number");
         }
     }
 }

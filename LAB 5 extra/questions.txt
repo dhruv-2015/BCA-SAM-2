@@ -1,0 +1,33 @@
+[+] Palindrome or not
+File:Palindrome.java
+
+[+] Angstrom or not
+File:armstrong.java
+
+[+] Perfect or not
+File:perfectnumber.java
+
+[+] Print N prime numbers with their Sum
+File:PrimeNumbersWithTheirSum.java
+
+[-] GCD of two numbers using while loop
+File:
+
+[-] LCM of two numbers using while loop
+File:
+
+[-] Count number of digits of a number using While Loop
+File:
+
+[-] 1 + 2 + 3 + …..+ N
+File:
+
+[-] 1 + 4 + 9 + …..+ n^2
+File:
+
+[-] 1+(1+2) + (1+2+3) + (1+2+3+4) …..+ (1+2+3+4+5+……+N)
+File:
+
+[-] 1 + 2(1+4) + 3(1+4+9) + 4(1+4+9+16) +…..N(1+4+9+16+…..+N^2)
+File:
+
