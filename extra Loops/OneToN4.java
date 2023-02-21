@@ -10,8 +10,9 @@ public class OneToN4 {
             System.out.print((i == 1) ? "" : " + " + i + "( ");
             int localSum = 0;
             for (int j = 1; j <= i; j++) {
-                System.out.print((j == i) ? j * j : j * j + " + ");
-                localSum += j * j;
+                int LS = j * j;
+                System.out.print((j == i) ? LS : LS + " + ");
+                localSum += LS;
             }
             System.out.print((i == 1) ? "" : " )");
             sum += (localSum * i);
@@ -19,3 +20,4 @@ public class OneToN4 {
         System.out.println(" = " + sum);
     }
 }
+
