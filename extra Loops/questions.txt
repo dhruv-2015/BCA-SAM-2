@@ -11,23 +11,23 @@ File:perfectnumber.java
 File:PrimeNumbersWithTheirSum.java
 
 [-] GCD of two numbers using while loop
-File:
+File:GCD.java
 
 [-] LCM of two numbers using while loop
-File:
+File:LCM.java
 
-[-] Count number of digits of a number using While Loop
-File:
+[+] Count number of digits of a number using While Loop
+File:NumberOfDigits.java
 
-[-] 1 + 2 + 3 + …..+ N
-File:
+[+] 1 + 2 + 3 + …..+ N
+File:OneToN.java
 
-[-] 1 + 4 + 9 + …..+ n^2
-File:
+[+] 1 + 4 + 9 + …..+ n^2
+File:OneToN2.java
 
-[-] 1+(1+2) + (1+2+3) + (1+2+3+4) …..+ (1+2+3+4+5+……+N)
-File:
+[+] 1+(1+2) + (1+2+3) + (1+2+3+4) …..+ (1+2+3+4+5+……+N)
+File:OneToN3.java
 
-[-] 1 + 2(1+4) + 3(1+4+9) + 4(1+4+9+16) +…..N(1+4+9+16+…..+N^2)
-File:
+[+] 1 + 2(1+4) + 3(1+4+9) + 4(1+4+9+16) +…..N(1+4+9+16+…..+N^2)
+File:OneToN4.java
 

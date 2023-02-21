@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GCD {
+public class LCM {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -10,16 +10,20 @@ public class GCD {
         System.out.print("Enter the second number: ");
         int num2 = input.nextInt();
 
-        int gcd = 1;
-        int i = 1;
+        int lcm;
 
-        while (i <= num1 && i <= num2) {
-            if (num1 % i == 0 && num2 % i == 0) {
-                gcd = i;
+        int larger = Math.max(num1, num2);
+        int smaller = Math.min(num1, num2);
+
+        lcm = larger;
+
+        while (true) {
+            if (lcm % smaller == 0) {
+                break;
             }
-            i++;
+            lcm += larger;
         }
 
-        System.out.println("GCD of " + num1 + " and " + num2 + " is: " + gcd);
+        System.out.println("LCM of " + num1 + " and " + num2 + " is: " + lcm);
     }
 }

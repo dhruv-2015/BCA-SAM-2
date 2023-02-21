@@ -12,10 +12,10 @@ public class Palindrome {
             revnum += (temp % 10);
             temp /= 10;
         }
-        if (number == revnum) {
+        if (number == revnum)
             System.out.println(number + " is Palindrome Number");
-        } else {
+        else
             System.out.println(number + " is not Palindrome Number");
-        }
+        
     }
 }
