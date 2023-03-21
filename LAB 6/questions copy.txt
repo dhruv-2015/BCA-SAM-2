@@ -5,13 +5,13 @@ File:SimpleInterest.java
 File:MaximumNumber.java
 
 [-] WAP to generate Fibonacci series of N given number using method.
-File:FibonacciSeries.java
+File: (https://github.com/laypatel2910/LabWorkJava/blob/master/src/lab_6/Fibonacci_series_without_using_method.java)
 
 [+] WAP to accept a number and check whether the number is prime or not. Use method name check (int n). The method returns 1, if the number is prime otherwise, it returns 0.
 File:PrimeNumber.java
 
 [-] WAP that calculates area of circle, triangle and square using method overloading.
-File:AreaOfCircle.java
+File: (https://github.com/laypatel2910/LabWorkJava/blob/master/src/lab_6/calculates_area_of_circle_triangle_and_square_using_method_overloading.java)
 
 [+] Write a method with following method header: public int gcd (int num1, int num2). Write a program that prompts the user to enter two integers and compute the gcd of two integers. [Note: The greatest common divisor (GCD) of two numbers is the largest number that divides them both.]
-File:gcd.java
+File: gcd.java
