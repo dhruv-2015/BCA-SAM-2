@@ -1,0 +1,47 @@
+.main-div {
+    background-color: powderblue;
+    padding: 10px
+}
+
+p {
+    padding: 3px;
+    margin: 0;
+}
+
+.header-div {
+    background-color: purple;
+    color: #fff;
+}
+
+.content-div {
+    background-color: orange;
+    height: 225px;
+}
+
+.entry {
+    background-color: black;
+    height: 15px;
+    margin: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.entry-div {
+    float: left;
+    width: 50%;
+}
+
+.sidebar-div {
+    float: right;
+    background-color: black;
+    color: #fff;
+    width: 30%;
+    height: 120px;
+    font-size: 20px;
+}
+
+.sp-div {
+    background-color: blue;
+    display: block;
+    font-size: 20px;
+}

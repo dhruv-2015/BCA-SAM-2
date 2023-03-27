@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 2</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar img {
+            float: left;
+            height: 60px;
+            width: 60px;
+        }
+
+        .nav-list div a {
+            text-decoration: none;
+        }
+
+        .nav-list {
+            display: flex;
+            float: right;
+            margin-right: 60px;
+        }
+
+        .nav-list div {
+            margin: 10px;
+        }
+
+        /* main */
+
+        .main {
+            margin-top: 15px;
+        }
+
+        .left-nav {
+            width: 20%;
+            height: 90vh ;
+            float: left;
+            background-color: red;
+            text-align: center;
+        }
+
+        .left-nav-items {
+            border: 1px solid;
+            width: 100%;
+            align-items: center;
+            margin: 2px;
+            padding-bottom: 100px;
+        }
+        .left-nav-items a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .section {
+            display: flex;
+            
+        }
+
+        .section-images img {
+            min-width: 50px;
+            max-width: 100px;
+        }
+
+        .section-images {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+
+        .main-secton {
+            /* width: 70%; */
+            float: right;
+            margin: 20%;
+        }
+
+        .footer p {
+            height: 15px;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: blue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/Visual_Studio_Code.png" alt="">
+            <div class="nav-list">
+
+                <div><a href="#">Home</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Contact</a></div>
+                <div><a href="#">Login</a></div>
+
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="left-nav">
+                Sidebar
+                <div class="left-nav-items"><a href="#">Home</a></div>
+                <div class="left-nav-items"><a href="#">Placement</a></div>
+                <div class="left-nav-items"><a href="#">Recruitment</a></div>
+                <div class="left-nav-items"><a href="#">Faculty</a></div>
+                <div class="left-nav-items"><a href="#">News</a></div>
+            </div>
+            <div class="main-section">
+                <div class="section">
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 1</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 2</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 3</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 4</div>
+                </div>
+                <div class="section">
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 1</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 2</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 3</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 3</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 3</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 3</div>
+                    <div class="section-images"><img src="img/Visual_Studio_Code.png" alt="">name 4</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+            <p>
+                &copy;Darshan University-Rajkot
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

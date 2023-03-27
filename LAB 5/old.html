@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 0;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .container nav {
+            background-color: blue;
+        }
+        .nav-left {
+            width: 50px;
+            height: 50px;
+            float: left;
+            background-color: rgba(99, 102, 241);
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        .nav-left svg {
+            color: white;
+            size: 10px;
+        }
+
+        .right-nav {
+            float: right;
+        }
+
+        .right-nav a {
+            color: gray;
+            border-radius: 0;
+            margin: 10px;
+            text-decoration: none;
+            padding: 3px;
+        }
+        .main {
+            /* margin-top: 100px; */
+         background-color: aqua   
+        }
+        .sidebar {
+
+        }
+        .sidebar a {
+            background-color: red;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <nav>
+                <div class="nav-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                        viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <div class="right-nav">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Contect</a>
+                    <a href="">Login</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="sidebar">
+                <a href="#">Home</a>
+                <a href="#">Placement</a>
+                <a href="#">Recruitment</a>
+                <a href="#">Faculty</a>
+                <a href="#">5</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
