@@ -1,0 +1,2 @@
+create database student_master_lab5
+use student_master_lab5
