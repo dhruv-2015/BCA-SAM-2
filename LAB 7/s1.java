@@ -5,13 +5,14 @@ class Student {
     public String name;
     public String gender;
     public double marks;
-    public static int count;
+    public static int count = 0;
 
     Student(int envirmentNoOfStudent, String nameOfStudent, String genderOfStudent, double marksOfStudent) {
         EnrolmentNo = envirmentNoOfStudent;
         name = nameOfStudent;
         gender = genderOfStudent;
         marks = marksOfStudent;
+        count++;
     }
 }
 
