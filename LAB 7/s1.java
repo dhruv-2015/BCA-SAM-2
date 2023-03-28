@@ -20,9 +20,9 @@ public class s1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Student student = new Student(22401031, "Dhruv", "male", 20);
-        System.out.println("Enrolment No: " + student.EnrolmentNo);
-        System.out.println("Name: " + student.name);
-        System.out.println("Gender: " + student.gender);
-        System.out.println("Marks: " + student.marks);
+        Student student1 = new Student(22401032, "Dhruv1", "male", 20);
+        Student student2 = new Student(22401033, "Dhruv2", "male", 20);
+        System.out.println("Total Object: " + Student.count);
+
     }
 }
