@@ -48,9 +48,10 @@ class ComplexNumber {
         this.real = obj1.real + obj2.real;
         this.imgi = obj1.imgi + obj2.imgi;
 
-        // System.out.println(obj1.real + "+" + obj1.imgi + "i + " + obj2.real + "+" + obj2.imgi + "i = " + real + "+"
-        //         + this.imgi + "i");
+        // System.out.println(obj1.real + "+" + obj1.imgi + "i + " + obj2.real + "+" +
+        // obj2.imgi + "i = " + real + "+" + this.imgi + "i");
     }
+
     public void display() {
         System.out.println("= " + real + " + " + imgi + "i");
     }
