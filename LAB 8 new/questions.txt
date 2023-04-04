@@ -1,0 +1,8 @@
+1. Create a class Student that would containt envno, name, gender, mark as instance veriable and display. implement constructur to initilize instance variable
+File: s1.java
+
+2. WAP to find volume of box. initialize dimansion (L, B, H) using constructor
+File: s2.java
+
+3. Difine a class for complex number with real and imagenery part. discribe its constructor overload the constructor and inictive its object 
+File: s3.java
