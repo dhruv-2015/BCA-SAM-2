@@ -1,0 +1,24 @@
+[+] Create a class named 'Member' having the following members:
+    1 - Name
+    2 - Age
+    3 - Phone number
+    4 - Address
+    5 – Salary
+    It also has a method named 'printSalary' which prints the salary of the members.
+    Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same along with specialization and department respectively.
+File: s1.java
+
+[-] Design a class named MyPoint to represent a point with x- and y-coordinates. 
+The class contains: The data fields x and y that represent the coordinates with getter methods.
+    o a no-arg constructor that creates a point (0, 0).
+    o a constructor that constructs a point with specified coordinates.
+    o a method named distance that returns the distance from this point to a specified point of the MyPoint type.
+    o a method named distance that returns the distance from this point to another point with specified x- and y-coordinates.
+    Create a class named ThreeDPoint to model a point in a three-dimensional space. Let ThreeDPoint be derived from MyPoint with following additional features:
+    o A data fields named z that represents the z-coordinate.
+    o A no-arg constructor that creates a point (0, 0, 0).
+    o A constructor that constructs a point with three specified coordinates.
+    o A get method that returns the z value.
+    o Override the distance method to return the distance between two points in the threedimensional space.
+    Write a program that creates two points (0, 0, 0) and (10, 30, 25.5) and display the distance between the two points.
+File: s2.java

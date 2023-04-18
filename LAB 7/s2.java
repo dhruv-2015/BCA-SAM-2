@@ -13,8 +13,7 @@ class Candidate {
         System.out.print("Enter Candidate ID: ");
         Candidate_ID = sc.nextInt();
         System.out.print("Enter Candidate Name: ");
-        sc.nextLine();
-        // System.out.println();
+        sc.nextLine(); // to remove empty line
         Candidate_Name = sc.nextLine();
         System.out.print("Enter Candidate Age: ");
         Candidate_Age = sc.nextInt();

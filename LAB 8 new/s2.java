@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-
 class Volume {
     double L;
     double B;
