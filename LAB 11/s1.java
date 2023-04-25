@@ -88,7 +88,7 @@ class s1 {
           System.out.print("Enter specialization: ");
           specialization = sc.next();
           System.out.print("Enter department: ");
-          department = sc.next();
+          System.out.println();
           // Name, Age, PhoneNumber, Address, Salary, specialization
           Employee e = new Employee(Name, Age, PhoneNumber, Address, Salary, specialization);
           e.display();
