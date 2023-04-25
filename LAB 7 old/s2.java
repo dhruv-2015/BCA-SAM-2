@@ -22,7 +22,6 @@ class Candidate {
         System.out.print("Enter Candidate Height: ");
         Candidate_Height = sc.nextDouble();
     }
-
     public void DisplayCandidateDetails() {
         System.out.println("Candidate ID: " + Candidate_ID);
         System.out.println("Candidate Name: " + Candidate_Name);
@@ -33,7 +32,8 @@ class Candidate {
 
 }
 
-public class s1 {
+
+public class s2 {
     public static void main(String[] args) {
         Candidate candidate = new Candidate();
         candidate.GetCandidateDetails();

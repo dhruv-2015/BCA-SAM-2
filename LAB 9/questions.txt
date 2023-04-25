@@ -1,17 +1,14 @@
-[+] WAP to demonstrate single inheritance, multilevel inheritance and hierarchical inheritance.
-File: s1.java
+==> Use of this and Static keyword  <==
 
-[+] Create a class named shape. In this class, we have three subclasses circle, triangle and square. WAP to display area of all three classes.
-File: s2.java
 
-[+] WAP for implementing single inheritance which creates one class account_details for getting account information and another class interest for calculating and displaying total interest from the data inserted from account details.
-File: s3.java
+[+] Write a program in Java to demonstrate use of this keyword. Check whether this can access the Static variables of the class or not.
+file: s1.java
 
-[+] Demonstrate the use of Super Keyword
-File: s4.java
+[+] Write a java program to show static block which will be executed before main ( ) method in a class. 
+file: s2.java
 
-[-] Demonstrate the use of Final Keyword
-File: s5.java 
+[+] Create class student which contain enroll_no, name, marks, gender as instance variable and count as static variable which stores the count of the objects. Use constructor to initialize variable and display() method to display data.
+file: s3.java
 
-[-] Demonstrate the Method overriding using example
-File: s6.java
+[+] Create a class “Rectangle” that would contain length and width as an instance variable and count as a static variable. Define constructors [constructor overloading (default, parameterized and copy)] to initialize variables of objects. Define methods to find area and to display variables’ value of objects which are created. [Note: define initializer block, static initializer block and the static variable and method. Also demonstrate the sequence of execution of initializer block and static initialize block] 
+file: s4.java

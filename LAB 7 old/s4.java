@@ -31,7 +31,7 @@ class Employee {
     }
 }
 
-public class s3 {
+public class s4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Employee employee = new Employee();

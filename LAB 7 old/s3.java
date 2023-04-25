@@ -32,7 +32,7 @@ class Bank_Account {
 
 }
 
-public class s2 {
+public class s3 {
     public static void main(String[] a) {
         Bank_Account b = new Bank_Account();
         b.GetAccountDetails();

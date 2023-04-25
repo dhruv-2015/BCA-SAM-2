@@ -1,29 +1,24 @@
-[-] Create a class “Student” that would contain enrolment No, name, and gender and marks as instance variables and count as static variable which stores the count of the objects; constructors and display(). Implement constructors to initialize instance variables.
-File:s1.java
+==>  Objects and Classes I  <==
+[+] 1.	Create a class named Candidate with Candidate_ID, Candidate_Name, Candidate_Age, Candidate_Weight and Candidate_Height data members. Also create a method GetCandidateDetails() and DisplayCandidateDetails(). Create main method to demonstrate the Candidate class.
+File: s1.java
 
-[+] Create a class named Candidate with Candidate_ID, Candidate_Name, Candidate_Age, Candidate_Weight and Candidate_Height data members. Also create a method GetCandidateDetails() and DisplayCandidateDetails(). Create main method to demonstrate the Candidate class.
-File:s2.java
-
-[+] Create a class named Bank_Account with Account_No, User_Name, Email, Account_Type and Account_Balance data members. Also create a method GetAccountDetails() and DisplayAccountDetails(). Create main method to demonstrate the Bank_Account class.
-File:s3.java
+[+] Create a class named Bank_Account with Account_No, User_Name, Email, Account_Type and Account_Balance data members. Also create a method GetAccountDetails() and DisplayAccountDetails(). Create main method to demonstrate the Bank_Account class. 
+File: s2.java
 
 [+] WAP with following specifications:
 Class Name: Employee
 Data Members: Employee_ID, Employee_Name, Designation, Age, Salary
 Member Functions: GetEmployeeDetails () and DisplayEmpolyeeDetails ().
-File:s4.java
+File: s3.java
 
 [+] Write a class program with following specifications:
 Class Name: Student
-Data Members: Enrollment_No, Student_Name, Semester, CPI and SPI
+Data Members: Enrollment_No, Student_Name, Semester, CPI and SPI 
 Member Functions: GetStudentDetails () and DisplayStudentDetails ().
-File:s5.java
+File: s4.java
 
 [+] WAP to create Circle class with area and perimeter function to find area and perimeter of circle.
-File:s6.java
+File: s5.java
 
-[+] Define Time class with hour and minute as data member. Also define addition method to add twotime objects.
-File:s7.java
-
-[-] Define class for Complex number with real and imaginary part. Describe its constructor, overload the constructors and instantiate its object. Also define addition method to add two Complex objects.
-File:s8.java
+[+] Define Time class with hour and minute as data member. Also define addition method to add two-time objects.
+File: s6.java

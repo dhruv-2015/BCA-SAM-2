@@ -1,39 +1,58 @@
-class account_details {
+import java.util.Scanner;
+
+class Student {
+    public int EnrolmentNo;
     public String name;
-    public int ActNo;
-    public double Amount;
-}
+    public String gender;
+    public double marks;
+    public static int count = 0;
 
-class account extends account_details {
-    account(String n, int Act, double Amt) {
-        name = n;
-        ActNo = Act;
-        Amount = Amt;
+    Student(int envirmentNoOfStudent, String nameOfStudent, String genderOfStudent, double marksOfStudent) {
+        EnrolmentNo = envirmentNoOfStudent;
+        name = nameOfStudent;
+        gender = genderOfStudent;
+        marks = marksOfStudent;
+        count++;
     }
 
-    account() {
-    }
-}
-
-class Interest extends account {
-    double r;
-    double n;
-
-    Interest(double Amount, double r, double n) {
-        this.Amount = Amount;
-        this.r = r;
-        this.n = n;
-    }
-
-    public void interest() {
-        System.out.println("interest is: " + ((Amount * r * n) / 100));
+    public void display() {
+        System.out.println();
+        System.out.println("Enrolment No: " + EnrolmentNo);
+        System.out.println("Name: " + name);
+        System.out.println("Gender: " + gender);
+        System.out.println("Marks: " + marks);
+        System.out.println("Number of Object: " + count);
     }
 }
 
 public class s3 {
     public static void main(String[] args) {
-        account c = new account("desakc", 153, 153);
-        Interest i = new Interest(1354351, 12, 5);
-        i.interest();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Student Details");
+        System.out.print("Enter envirment No: ");
+        int e = sc.nextInt();
+        System.out.print("Enter Name: ");
+        String name = sc.next();
+        System.out.print("Enter Gender: ");
+        String gen = sc.next();
+        System.out.print("Enter Marks: ");
+        int m = sc.nextInt();
+        Student student = new Student(e, name, gen, m);
+        System.out.println("Enter 2nd Student Details");
+        System.out.print("Enter envirment No: ");
+        e = sc.nextInt();
+        System.out.print("Enter Name: ");
+        name = sc.next();
+        System.out.print("Enter Gender: ");
+        gen = sc.next();
+        System.out.print("Enter Marks: ");
+        m = sc.nextInt();
+        Student student2 = new Student(e, name, gen, m);
+        System.out.println("\n");
+        System.out.println("1st Student Details");
+        student.display();
+        System.out.println("\n2nd Student Details");
+        student2.display();
+
     }
 }

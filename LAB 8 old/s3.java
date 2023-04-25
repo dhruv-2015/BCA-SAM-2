@@ -1,16 +1,13 @@
-import java.util.Scanner;
-
 class Rectangle {
-    int length;
+    int length; 
     int width;
     static int count;
 
     static {
-        System.out.println("Rectangle staric block Of Rectangle Class");
+        System.out.println("Rectangle staric block");
         count = 0;
     }
     {
-        System.out.println("Running initializer block Of Rectangle Class");
         count++;
     }
 
@@ -22,7 +19,7 @@ class Rectangle {
         this.length = length;
         this.width = width;
     }
-
+    
     Rectangle(Rectangle obj) {
         this.length = obj.length;
         this.width = obj.width;
@@ -35,33 +32,22 @@ class Rectangle {
     public void display() {
         System.out.println("Length: " + length);
         System.out.println("Width: " + width);
-        System.out.println("Count: " + count);
     }
 }
 
-public class s4 {
+
+
+class s3 {
     static {
-        System.out.println("Running Static Block Of s4 Class");
+        System.out.println("Main class static block");
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter length: ");
-        int len = sc.nextInt();
-        System.out.print("Enter width: ");
-        int wid = sc.nextInt();
-
-        System.out.println("\n");
-
-        Rectangle x = new Rectangle(len, wid);
-        x.display();
-        x.area();
         
-        System.out.println("\n");
-
+        Rectangle x = new Rectangle(1, 2);
         Rectangle y = new Rectangle(x);
         y.display();
         y.area();
-
+        
     }
 }

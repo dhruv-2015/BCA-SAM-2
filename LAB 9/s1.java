@@ -1,29 +1,25 @@
-class InheritanceClass1 {
-    int x;
-    int y;
-    int z;
+class DemoThisKey {
+    int a;
+    int b;
+    static int c = 10;
 
-    InheritanceClass1(int x, int y, int z) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
+    DemoThisKey(int a, int b) {
+        this.a = a;
+        this.b = b;
+        this.c = 11;
     }
-    InheritanceClass1(){}
-}
 
-class InheritanceClass2 extends InheritanceClass1 {
-
-}
-
-class InheritanceClass3 extends InheritanceClass2 {
-
-}
-
-class InheritanceClass4 extends InheritanceClass3 {
-
+    public void display() {
+        System.out.println("A is: " + this.a);
+        System.out.println("B is: " + this.b);
+        System.out.println("C is: " + this.c);
+    }
 }
 
 
 public class s1 {
-    
+    public static void main(String[] args) {
+        DemoThisKey obj = new DemoThisKey(10, 11);
+        obj.display();
+    }
 }

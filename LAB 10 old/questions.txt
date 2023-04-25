@@ -9,7 +9,7 @@ File:
 [+] Create a class named shape. In this class, we have three subclasses circle, triangle and square. WAP to display area of all three classes.
 File: s2.java
 
-[+] WAP for implementing single inheritance which creates one class account_details for getting account information and another class interest for calculating and displaying total interest from the data inserted from account details.
+[-] WAP for implementing single inheritance which creates one class account_details for getting account information and another class interest for calculating and displaying total interest from the data inserted from account details.
 File: s3.java
 
 [+] Demonstrate the use of Super Keyword 

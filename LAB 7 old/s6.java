@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class s5 {
+public class s6 {
+    // area and perimeter
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Circle c = new Circle();
@@ -8,7 +9,7 @@ public class s5 {
         double r = sc.nextDouble();
         System.out.println("Area is: " + c.area(55));
         System.out.println("Perimeter is: " + c.perimeter(55));
-
+        
     }
 }
 
