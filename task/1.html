@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            min-width: 100%;
+            min-height: 90vh;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            min-height: 15vh;
+            min-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: aqua;
+            color: white;
+        }
+        .main {
+            height: 51vh;
+        }
+        .left-main {
+            min-height: 50vh;
+            width: 20%;
+            background-color: #57a738;
+            float: left;
+            text-align: center;
+            color: #fff;
+        }
+        .right-main {
+            min-height: 50vh;
+            width: 79%;
+            float: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .main-contant {
+            min-height: 39vh;
+            background-color: rgb(255, 217, 0);       
+            color: white;
+            text-align: center;
+        }
+        .extra-contant {
+            min-height: 10vh;
+            color: white;
+            text-align: center;
+            background-color: gray;
+        }
+        .footer {
+            height: 15vh;
+            min-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="main">
+            <div class="left-main">
+                <h1>Side Bar</h1>
+            </div>
+            <div class="right-main">
+                <div class="main-contant">
+                    <h1>Main content</h1>
+                </div>
+                <div class="extra-contant">
+                    <h1>Extra Contant</h1>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
