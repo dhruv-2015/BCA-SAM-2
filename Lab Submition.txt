@@ -1,0 +1,9 @@
+Your DBMS-I evaluation will be based on performing different queries. Evaluation starts from Monday onwards.
+
+Topic of queries are:
+
+SELECT 
+UPDATE
+ALTER
+GROUP BY
+JOIN
