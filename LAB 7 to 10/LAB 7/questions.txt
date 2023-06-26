@@ -1,0 +1,24 @@
+==>  Objects and Classes I  <==
+[+] 1.	Create a class named Candidate with Candidate_ID, Candidate_Name, Candidate_Age, Candidate_Weight and Candidate_Height data members. Also create a method GetCandidateDetails() and DisplayCandidateDetails(). Create main method to demonstrate the Candidate class.
+File: s1.java
+
+[+] Create a class named Bank_Account with Account_No, User_Name, Email, Account_Type and Account_Balance data members. Also create a method GetAccountDetails() and DisplayAccountDetails(). Create main method to demonstrate the Bank_Account class. 
+File: s2.java
+
+[+] WAP with following specifications:
+Class Name: Employee
+Data Members: Employee_ID, Employee_Name, Designation, Age, Salary
+Member Functions: GetEmployeeDetails () and DisplayEmpolyeeDetails ().
+File: s3.java
+
+[+] Write a class program with following specifications:
+Class Name: Student
+Data Members: Enrollment_No, Student_Name, Semester, CPI and SPI 
+Member Functions: GetStudentDetails () and DisplayStudentDetails ().
+File: s4.java
+
+[+] WAP to create Circle class with area and perimeter function to find area and perimeter of circle.
+File: s5.java
+
+[+] Define Time class with hour and minute as data member. Also define addition method to add two-time objects.
+File: s6.java

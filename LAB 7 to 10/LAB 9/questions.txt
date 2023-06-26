@@ -1,0 +1,14 @@
+==> Use of this and Static keyword  <==
+
+
+[+] Write a program in Java to demonstrate use of this keyword. Check whether this can access the Static variables of the class or not.
+file: s1.java
+
+[+] Write a java program to show static block which will be executed before main ( ) method in a class. 
+file: s2.java
+
+[+] Create class student which contain enroll_no, name, marks, gender as instance variable and count as static variable which stores the count of the objects. Use constructor to initialize variable and display() method to display data.
+file: s3.java
+
+[+] Create a class “Rectangle” that would contain length and width as an instance variable and count as a static variable. Define constructors [constructor overloading (default, parameterized and copy)] to initialize variables of objects. Define methods to find area and to display variables’ value of objects which are created. [Note: define initializer block, static initializer block and the static variable and method. Also demonstrate the sequence of execution of initializer block and static initialize block] 
+file: s4.java
